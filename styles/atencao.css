@@ -1,0 +1,144 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.wrapper {
+    width: 1240px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 16%;
+    background-color: rgba(14, 134, 143, 0.4);
+    padding: 5px ;
+}
+
+.menu ul{
+    margin-top: 10px;
+    padding: 0;
+}
+
+.menu li{
+    margin-top: 30px;
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.container{
+    display:flex;
+    margin: 0 auto;
+    width: 200px;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,.50),
+    rgba(0,0,0,.50)100%), url("/img/med-header.png");
+    background-size: cover ;
+    min-height: 250px;
+}
+
+.header h1{
+    font-size: 60px;
+    margin: 5px;
+    color: rgb(39, 168, 162);
+    text-transform: capitalize;
+}
+
+.header p {
+    font-size: 36px;
+    color: rgb(220, 220, 220);
+    text-transform: capitalize;
+}
+.header span{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #FFF;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(223, 223, 223);
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content h1{
+    font-size: 32px;
+}
+
+.content h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.content p{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.content td{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.first-line{
+    background-color: rgba(0,0,0,.70);
+    color: white;
+}
+
+/* .horarios{
+    border: 1px solid black;
+} */
+
+.horarios tr:nth-child(even){
+    background-color: rgb(176, 244, 240);
+ }
+ 
+ .horarios tr:hover td{
+    background-color: rgba(0,0,0,.70);
+    color: #FFF;
+ }
+ 
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 20);
+    min-height: 150px;
+}

@@ -1,0 +1,119 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.wrapper {
+    width: 1240px;
+    display: flex;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+.container{
+    display:flex;
+    margin: 0 auto;
+    max-width: 200px;
+    background-size: cover;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 16%;
+    background-color: rgba(14, 134, 143, 0.4);
+    padding: 5px ;
+}
+
+.menu ul{
+    margin-top: 10px;
+    padding: 0;
+}
+
+.menu li{
+    margin-top: 30px;
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,.50),
+    rgba(0,0,0,.50)100%),  url('../img/nature.jpg');
+    background-size: cover ;
+    min-height: 250px;
+}
+
+.header h1{
+    font-size: 60px;
+    margin: 5px;
+    color: rgb(39, 168, 162);
+    text-transform: capitalize;
+}
+
+.header p {
+    font-size: 36px;
+    color: white;
+    text-transform: capitalize;
+}
+.header span{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(223, 223, 223);
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content h1{
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: rgb(34, 34, 34);
+    margin: 0;
+}
+
+.content p{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 16px;
+    color: rgb(34, 34, 34);
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 20);
+    min-height: 150px;
+}
